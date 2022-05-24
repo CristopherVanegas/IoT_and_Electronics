@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/cristophervanegas/Documents/Projects/IOT_and_Electronics/KiCAD/projects/Transistor_and_Servo/Transistor_and_Servo.kicad_sch</source>
+    <date>2022 January 05, Wednesday 06:40:12</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Transistor_and_Servo.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_UNO_R3</value>
+      <footprint>Module:Arduino_UNO_R3</footprint>
+      <datasheet>https://www.arduino.cc/en/Main/arduinoBoardUno</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_UNO_R3" description="Arduino UNO Microcontroller Module, release 3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Transistor_and_Servo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>750a7e27-998e-47c3-8cb4-5a140d2d8a89</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Transistor_and_Servo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5254720-0137-41fe-9884-df37f44c42d4</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Motor_Servo_Robbe</value>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Motor" part="Motor_Servo_Robbe" description="Servo Motor (Robbe connector)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Transistor_and_Servo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25625d99-d45f-4b2f-9e62-009a122611f4</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Transistor_and_Servo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4247b454-2825-495d-a5d7-a6d4965d376a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Transistor_and_Servo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c5f1884-1f19-4abe-92f3-a15cfa27f931</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM7805_TO220</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="LM7805_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Transistor_and_Servo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b71e1d9b-4594-4123-9dc5-04bb2b1b79b2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_UNO_R3">
+      <description>Arduino UNO Microcontroller Module, release 3</description>
+      <docs>https://www.arduino.cc/en/Main/arduinoBoardUno</docs>
+      <footprints>
+        <fp>Arduino*UNO*R3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_UNO_R3</field>
+        <field name="Footprint">Module:Arduino_UNO_R3</field>
+        <field name="Datasheet">https://www.arduino.cc/en/Main/arduinoBoardUno</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IOREF" type="output"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="3V3" type="power_out"/>
+        <pin num="5" name="+5V" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="A0" type="bidirectional"/>
+        <pin num="10" name="A1" type="bidirectional"/>
+        <pin num="11" name="A2" type="bidirectional"/>
+        <pin num="12" name="A3" type="bidirectional"/>
+        <pin num="13" name="SDA/A4" type="bidirectional"/>
+        <pin num="14" name="SCL/A5" type="bidirectional"/>
+        <pin num="15" name="D0/RX" type="bidirectional"/>
+        <pin num="16" name="D1/TX" type="bidirectional"/>
+        <pin num="17" name="D2" type="bidirectional"/>
+        <pin num="18" name="D3" type="bidirectional"/>
+        <pin num="19" name="D4" type="bidirectional"/>
+        <pin num="20" name="D5" type="bidirectional"/>
+        <pin num="21" name="D6" type="bidirectional"/>
+        <pin num="22" name="D7" type="bidirectional"/>
+        <pin num="23" name="D8" type="bidirectional"/>
+        <pin num="24" name="D9" type="bidirectional"/>
+        <pin num="25" name="D10" type="bidirectional"/>
+        <pin num="26" name="D11" type="bidirectional"/>
+        <pin num="27" name="D12" type="bidirectional"/>
+        <pin num="28" name="D13" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="AREF" type="input"/>
+        <pin num="31" name="SDA/A4" type="bidirectional"/>
+        <pin num="32" name="SCL/A5" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Motor_Servo_Robbe">
+      <description>Servo Motor (Robbe connector)</description>
+      <docs>http://forums.parallax.com/uploads/attachments/46831/74481.png</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_Servo_Robbe</field>
+        <field name="Datasheet">http://forums.parallax.com/uploads/attachments/46831/74481.png</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PWM" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+        <pin num="3" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM7805_TO220">
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Motor.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(M1-Pad1)">
+      <node ref="A1" pin="9" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="M1" pin="1" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(Q1-Pad1)">
+      <node ref="M1" pin="3" pinfunction="-" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(Q1-Pad3)">
+      <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad1)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad2)">
+      <node ref="A1" pin="10" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad3)">
+      <node ref="M1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="8" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="IOREF" pintype="output"/>
+    </net>
+    <net code="10" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="11" name="unconnected-(A1-Pad4)">
+      <node ref="A1" pin="4" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="12" name="unconnected-(A1-Pad5)">
+      <node ref="A1" pin="5" pinfunction="+5V" pintype="power_out"/>
+    </net>
+    <net code="13" name="unconnected-(A1-Pad6)">
+      <node ref="A1" pin="6" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="14" name="unconnected-(A1-Pad8)">
+      <node ref="A1" pin="8" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="15" name="unconnected-(A1-Pad11)">
+      <node ref="A1" pin="11" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(A1-Pad12)">
+      <node ref="A1" pin="12" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(A1-Pad13)">
+      <node ref="A1" pin="13" pinfunction="SDA/A4" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(A1-Pad14)">
+      <node ref="A1" pin="14" pinfunction="SCL/A5" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(A1-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(A1-Pad16)">
+      <node ref="A1" pin="16" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(A1-Pad17)">
+      <node ref="A1" pin="17" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(A1-Pad19)">
+      <node ref="A1" pin="19" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(A1-Pad21)">
+      <node ref="A1" pin="21" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(A1-Pad22)">
+      <node ref="A1" pin="22" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(A1-Pad23)">
+      <node ref="A1" pin="23" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(A1-Pad24)">
+      <node ref="A1" pin="24" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(A1-Pad25)">
+      <node ref="A1" pin="25" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="D11" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(A1-Pad27)">
+      <node ref="A1" pin="27" pinfunction="D12" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="D13" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(A1-Pad29)">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="34" name="unconnected-(A1-Pad30)">
+      <node ref="A1" pin="30" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="35" name="unconnected-(A1-Pad31)">
+      <node ref="A1" pin="31" pinfunction="SDA/A4" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(A1-Pad32)">
+      <node ref="A1" pin="32" pinfunction="SCL/A5" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

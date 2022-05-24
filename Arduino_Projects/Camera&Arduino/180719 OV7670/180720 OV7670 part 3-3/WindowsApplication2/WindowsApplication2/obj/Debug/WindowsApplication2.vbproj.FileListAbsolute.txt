@@ -1,0 +1,22 @@
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe.config
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.vbprojResolveAssemblyReference.cache
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Resources.resources
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.vbproj.GenerateResource.Cache
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.xml
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.exe
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.xml
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.pdb
+c:\users\toro\documents\visual studio 2015\Projects\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Form1.resources
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe.config
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.exe
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.xml
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.pdb
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.xml
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.vbprojResolveAssemblyReference.cache
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Form1.resources
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Resources.resources
+D:\5 Kerja\BJT JOSS\170412 STTAL\Pak Teguh\KAMERA HASIL\Warna\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.vbproj.GenerateResource.Cache
